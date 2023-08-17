@@ -13,7 +13,7 @@
                <div class='content_post'>
                    <h3>本文</h3>
                     <p class='body'>{{ $post->body }}</p>
-                    <a href="">{{ $post->category->name }}</a>
+                    <a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a>
                 </div>
         </div>
         <div class="edit">
